@@ -8,7 +8,7 @@ print(f"int {interger_var}, float: {float_var}, str: '{string_war}', bool: {bool
 
 print("Задание 2")
 name = "Дмитрий"
-age = "18"
+age = 18
 print(f"Имя: {name}")
 print(f"Возвраст: {age}")
 
@@ -24,6 +24,14 @@ a = 3
 b = 8
 result = (a + 4*b) * (a - 3*b) + a**2
 print(f"Результат уравнения: {result}")
+
+print("Задание 5")
+length = float(input("Введите длину прямоугольника: "))
+width = float(input("Введите ширину прямоугольник: "))
+area = width*length
+perimeter = 2 * (lenght + width)
+print(f"Площадь пряиоугольника: {area}")
+print(f"Периметр прямоугольника: {perimeter}")
 
 print("Задание 6")
 print("*   *   *")
@@ -70,12 +78,21 @@ phrase = "Нет! Да! "
 repeated_phrase = phrase * 4
 print(f"{repeated_phrase}")
 
+print("Задание 11")
+input_str = input("Введите три числа, разделённых запятой: ")
+numbers = input_str.split(',')
+a = int(numbers[0].strip())
+b = int(numbers[1].strip())
+c = int(numbers[2].strip())
+result = (a + c) // b 
+print(f"Результат уровнения: {result}")
+
 print("Задание 12")
-word = input("Введите слово (не менее 10 символов: треугольник)")
+word = input("Введите слово (не менее 10 символов): ")
 if len(word) < 10:
     print("Слово должно содержать не менее 10 символов!")
 else:
     print(f"Первые 4 символа: {word[:4]}")
-    print(f"Последние 2 символа: {word[-2]}")
+    print(f"Последние 2 символа: {word[-2:]}")
     print(f"Символы от 4 до 8: {word[4:8]}")
     print(f"Перевёрнутое слово: {word[::-1]}")
