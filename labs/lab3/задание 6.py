@@ -3,4 +3,8 @@ a, b = 0, 1
 print("Числа Фибоначчи:")
 while a <= limit:
     print(a, end=" ")
-    a, b = b, a + b
+    # a, b = b, a + b
+    c = a
+    a = b
+    b = c + b 
+    
