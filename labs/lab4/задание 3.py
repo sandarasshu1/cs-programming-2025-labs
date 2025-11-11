@@ -3,7 +3,6 @@ def dog_to_human(age):
         return age * 10.5
     else:
         return 21 + (age - 2) * 4
-
 while True:
     user_input = input("Введите возраст собаки: ")
     if user_input.isdigit():
