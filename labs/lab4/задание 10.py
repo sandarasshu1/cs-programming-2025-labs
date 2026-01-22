@@ -1,19 +1,18 @@
 def is_prime(n):
     if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):
+        return False  # числа < 2 — не простые
+    for i in range(2, int(n**0.5) + 1):  # проверяем делители до корня n
         if n % i == 0:
-            return False
-    return True
+            return False  # нашли делитель -> составное
+    return True  # делителей нет -> простое
 
 while True:
-    user_input = input("Введите целое число: ")
-    if user_input.lstrip('-').isdigit():
-        num = int(user_input)
-        if num >= 0:
+    try:
+        num = int(input("Введите целое число: "))
+        if num >= 0:  # принимаются только неотрицательные числа
             print("Простое" if is_prime(num) else "Составное")
             break
-        else:
-            print("Число должно быть неотрицательным.")
-    else:
+        # если num < 0 — цикл повторяется (но сообщение об ошибке не выводится)
+    except:
         print("Ошибка: введите целое число.")
+# Замечание: при вводе отрицательного числа программа молча запрашивает снова

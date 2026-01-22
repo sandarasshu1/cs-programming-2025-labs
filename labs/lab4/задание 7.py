@@ -1,7 +1,10 @@
-a, b, c = map(int, input("Введите три числа через пробел: ").split())
-min_val = a
-if b < min_val:
+a, b, c = map(int, input("Введите три числа через пробел: ").split())  # читаем три целых числа
+
+min_val = a  # предполагаем, что первое — минимальное
+if b < min_val:  # сравниваем со вторым
     min_val = b
-if c < min_val:
+if c < min_val:  # сравниваем с третьим
     min_val = c
-print(min_val)
+
+print(min_val)  # выводим наименьшее
+# Альтернатива: print(min(a, b, c))

@@ -1,6 +1,5 @@
-num = input("Введите число: ")
-total = sum(int(digit) for digit in num)
-if total % 3 == 0 and int(num[-1]) % 2 == 0:
+num = int(input("Введите число: "))  # читаем целое число
+if num % 6 == 0:  # проверяем остаток от деления на 6 (0 -> делится)
     print("Делится на 6")
 else:
     print("Не делится на 6")
