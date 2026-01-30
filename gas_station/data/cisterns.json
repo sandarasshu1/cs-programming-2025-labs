@@ -1,0 +1,42 @@
+[
+  {
+    "id": "АИ-92 №1",
+    "fuel_type": "АИ-92",
+    "max_volume": 20000,
+    "current_volume": 12400,
+    "min_level": 1000,
+    "is_active": true
+  },
+  {
+    "id": "АИ-95 №1",
+    "fuel_type": "АИ-95",
+    "max_volume": 20000,
+    "current_volume": 9767.0,
+    "min_level": 1000,
+    "is_active": true
+  },
+  {
+    "id": "АИ-95 №2",
+    "fuel_type": "АИ-95",
+    "max_volume": 20000,
+    "current_volume": 1200,
+    "min_level": 1000,
+    "is_active": false
+  },
+  {
+    "id": "АИ-98 №1",
+    "fuel_type": "АИ-98",
+    "max_volume": 15000,
+    "current_volume": 10000,
+    "min_level": 800,
+    "is_active": false
+  },
+  {
+    "id": "ДТ №1",
+    "fuel_type": "ДТ",
+    "max_volume": 25000,
+    "current_volume": 15600,
+    "min_level": 1200,
+    "is_active": true
+  }
+]

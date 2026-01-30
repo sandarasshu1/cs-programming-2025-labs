@@ -1,0 +1,22 @@
+{
+  "total_cars_served": 1,
+  "total_income": 1923.8999999999999,
+  "fuel_stats": {
+    "АИ-92": {
+      "liters": 0,
+      "income": 0
+    },
+    "АИ-95": {
+      "liters": 33.0,
+      "income": 1923.8999999999999
+    },
+    "АИ-98": {
+      "liters": 0,
+      "income": 0
+    },
+    "ДТ": {
+      "liters": 0,
+      "income": 0
+    }
+  }
+}

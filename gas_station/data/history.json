@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-01-27 12:29:55",
+    "operation_type": "sale",
+    "description": "Продажа 33.0 л АИ-95 на колонке 1",
+    "details": {
+      "column_id": 1,
+      "fuel_type": "АИ-95",
+      "liters": 33.0,
+      "total_price": 1923.8999999999999
+    }
+  }
+]

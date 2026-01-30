@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-01-27 12:29:55",
+    "column_id": 1,
+    "fuel_type": "АИ-95",
+    "liters": 33.0,
+    "price_per_liter": 58.3,
+    "total_price": 1923.8999999999999
+  }
+]
